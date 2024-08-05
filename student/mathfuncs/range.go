@@ -12,8 +12,8 @@ func Range(data []float64) (int, int) {
 	mean := Average(window)
 	stdDev := StdDeviation(window)
 
-	lowerLimit := mean - (1.8 * stdDev)
-	upperLimit := mean + (1.8 * stdDev)
+	lowerLimit := mean - (2 * stdDev)
+	upperLimit := mean + (2 * stdDev)
 
 	return int(math.Round(lowerLimit)), int(math.Round(upperLimit))
 }
