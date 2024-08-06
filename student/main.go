@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Athooh/guess-it-1/mathfuncs"
+	"github.com/Athooh/guess-it-1/student/mathfuncs"
 )
 
 func main() {
